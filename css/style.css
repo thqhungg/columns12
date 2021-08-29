@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+.logo img{
+	width: 178px
+}
+.nav{
+	height: 100%;
+/*	background: #6C2F30;*/
+}
+.nav ul{
+	height: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center
+}
+.nav li{
+	margin-left: 40px
+}
+.nav li a{
+	color: #1f1f1f;
+	font-weight: bold;
+	text-decoration: none
+}
+.nav li a:hover{
+	opacity:0.8
+}
+.content-banner h1{
+	font-size: 44px
+}
+.content-banner p{
+	font-size: 20px;
+	margin-bottom: 54px
+}
+.line{
+    height:3px;
+	width:50px;
+	background: #B7B3B3;
+	margin: 28px 0
+}
+.btn{
+/*	background: #943334;*/
+	padding: 15px 40px;
+	text-decoration: none
+}
+.btn-primary{
+	background: #6C63FF;
+	border: 1.5px solid #353434;
+	color: white
+}
+.btn-outline{
+	border: 1.5px solid #353434;
+	color: #000000
+}
+.banner img{
+	width: 509px
+}
+.mx-auto{
+	margin: 0 auto
+}
+.title{
+	text-align: center;
+	padding: 100px 0
+}
+.title h1 {
+	font-weight: 44px
+}
+.title p {
+	font-weight: 44px
+}
+.title .line{
+	margin: 28px auto
+}
+.app{
+	text-align: center;
+/*	background: red*/
+}
+.img img{
+	width: 207px
+}
+.app h1{
+	font-size: 27px;
+	margin: 52px 0 12px
+}
+.app p{
+	font-size: 14px
+}
+.cirle{
+	width: 200px;
+	height: 200px;
+	background: #7E5555;
+	border-radius: 100px
+}
+.real-time{
+	background: #F0F0F0
+}
+.real-time img{
+	width: 550px
+}
+.text{
+	padding: 100px 0px 100px 333px
+	
+}
+.text .link{
+	padding: 10px 0
+}
+.text a{
+	text-decoration: none;
+	color: #6C63FF
+}
+.footer{
+	text-align: center
+}
+.text-footer p{
+	color: #B7B3B3;
+	font-size: 18px
+}
+.text-footer img{
+	padding: 10px 0
+}
